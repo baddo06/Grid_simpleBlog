@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: inter;
+}
+
+ section {
+     width: 80%;
+     margin: 0 auto;
+ }
+
+ h1 { 
+     text-align: center;
+     font-family: 'inter';
+     font-style: italic;
+     font-weight: 600;
+     font-size: 60px;
+     line-height: 73px;
+
+ }
+
+ .grid_container {
+     display: grid;
+     gap: 39px;
+     grid-template-columns: repeat(auto-fit, minmax(481px, 1fr));
+     margin-top: 111px;
+      place-items: center;
+     align-items: center;
+ }
+
+ .grid_child {
+     width: 481px;
+     height: 545px;
+     background: #ececec;
+     position: relative;
+ }
+
+ .grid_child img {
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     object-fit: cover;
+     width: 100%;
+
+ }
+
+ .grid_child p {
+     font-family: 'inter';
+     font-style: normal;
+     font-weight: 300;
+     font-size: 22px;
+     line-height: 27px;
+     position: absolute;
+     bottom: 50px;
+     margin: 0px 30px;
+
+ }
